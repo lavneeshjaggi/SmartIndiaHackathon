@@ -1,5 +1,5 @@
 html, body {
-    color: white;
+    color: #fff;
     font-family: Oswald;
     height: 100%;
     margin: 0;
@@ -8,7 +8,7 @@ html, body {
 
 header {
     background: #333;
-    color: white;
+    color: #fff;
     padding: 30px;
 }
 

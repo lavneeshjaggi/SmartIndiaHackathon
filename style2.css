@@ -1,0 +1,51 @@
+body {
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: Oswald;
+    height: 100%;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+h1 {
+    margin: 0 auto;
+    width: 55%;
+}
+
+span {
+    color: #fffc00;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #a40606, #fffc00, #20bf55);
+}
+
+#defaultCanvas0 {
+    margin-left: 350px;
+    margin-right: 300px;
+    width: 70%;
+}
+
+button {
+    background: #fffc00;
+    border: none;
+    border-radius: 10%;
+    display: inline;
+    font-weight: 700;
+    height: 50px;
+    margin: 30px 0 0 300px;
+    padding: 3px;
+    text-transform: uppercase;
+    width: 60px;
+}
