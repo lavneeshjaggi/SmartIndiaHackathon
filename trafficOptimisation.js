@@ -3,8 +3,8 @@ let classifier;
 let video;
 let label = '';
 let confidence;
-let happyButton;
-let sadButton;;
+let set1Button;
+let set2Button;;
 let trainButton;
 
 function modelReady(){
@@ -46,14 +46,14 @@ function setup(){
     mobilenet = ml5.featureExtractor('Mobilenet', modelReady);
     classifier = mobilenet.classification(video, videoReady);
 
-    happyButton = createButton('happy');
-    happyButton.mousePressed(function(){
-        classifier.addImage('happy');
+    set1Button = createButton('SET 1');
+    set1Button.mousePressed(function(){
+        classifier.addImage('SET-1');
     });
 
-    sadButton = createButton('sad');
-    sadButton.mousePressed(function(){
-        classifier.addImage('sad');
+    set2Button = createButton('SET 2');
+    set2Button.mousePressed(function(){
+        classifier.addImage('SET-2');
     });
 
     trainButton = createButton('train');
