@@ -44,8 +44,12 @@ button {
     display: inline;
     font-weight: 700;
     height: 50px;
-    margin: 30px 0 0 300px;
+    margin: 30px 0 0 225px;
     padding: 3px;
     text-transform: uppercase;
     width: 60px;
+}
+
+button:focus {
+    outline: none;
 }

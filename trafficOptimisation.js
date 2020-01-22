@@ -60,6 +60,11 @@ function setup(){
     trainButton.mousePressed(function(){
         classifier.train(whileTraining);
     });
+
+    saveButton = createButton('save');
+    saveButton.mousePressed(function(){
+        classifier.save();
+    });
 }
 
 function draw(){
@@ -68,5 +73,5 @@ function draw(){
     fill(255);
     textSize(32);
     text(label, 5, height, -20);
-    text(confidence, 100, height, -20);
+    text(confidence, 150, height, -20);
 }
